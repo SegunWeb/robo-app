@@ -1,19 +1,23 @@
 {
-  "name": "robo-app",
+  "name": "robo-friends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "arwes": "^1.0.0-alpha.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-redux": "^7.1.3",
-    "react-scripts": "3.2.0",
-    "redux": "^4.0.4"
+    "react-scripts": "3.3.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "../robo-friends/node_modules/.bin/react-scripts start",
+    "build": "../robo-friends/node_modules/.bin/react-scripts build",
+    "test": "../robo-friends/node_modules/.bin/react-scripts test",
+    "eject": "../robo-friends/node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,8 +35,7 @@
     ]
   },
   "devDependencies": {
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
-    "tachyons": "^4.10.0"
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5"
   }
 }
